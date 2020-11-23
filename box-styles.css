@@ -1,15 +1,19 @@
 h1, p {
-    background-color: #DDE0E3;    /* Light gray */
+    background-color: #DDE0E3;    
     padding: 50px;
     border: 1px solid #5D6063;
   }
   
   em, strong {
-    background-color: #B2D6FF;    /* Light blue */
+    background-color: #B2D6FF;   
     display: inline;
   }
 
   p {
-    padding: 20px 10px;  /* Vertical  Horizontal */
-    padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 20px 0 20px 10px;  
+  }
+  strong {
+    margin: 50px;
   }

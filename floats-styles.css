@@ -6,7 +6,7 @@
 
   .menu {
     height: 100px;
-    background-color: #B2D6FF;    /
+    background-color: #B2D6FF;    
   }
   
   .sidebar {
@@ -24,6 +24,7 @@
   }
   
   .footer {
+    clear: both;
     height: 200px;
     background-color: #D6E9FE;   
   }
@@ -31,5 +32,12 @@
   .page {
     width: 900px;
     margin: 0 auto;
-    border: 1px solid red; ;
+    border: 1px solid red; 
+    overflow: hidden;
+    background-color: #EAEDF0;
+  }
+
+  .container {
+    overflow: hidden;
+    background-color: #EAEDF0;
   }

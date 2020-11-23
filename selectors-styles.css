@@ -1,6 +1,6 @@
 .synopsis {
     color: #7E8184;      
-    font-style: italic;
+    font-style: normal;
 }
 
 .button {
@@ -14,3 +14,29 @@
   
     width: 200px;
     margin: 20px auto;
+}
+
+.page {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .call-to-action {
+    font-style: italic;
+    background-color: #EEB75A;    /* Yellow */
+  }
+
+  a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  a:visited {
+    color: purple;
+  }
+  a:hover {
+    color: aqua;
+    text-decoration: underline;
+  }
+  a:active {
+    color: red;
+  }

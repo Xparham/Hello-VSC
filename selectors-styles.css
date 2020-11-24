@@ -34,7 +34,7 @@ p:first-of-type {
   .call-to-action:link,
   .call-to-action:visited {
     font-style: italic;
-    background-color: #EEB75A;     /* Yellow */
+    background-color: red;     /* Yellow */
   }
   
   .call-to-action:hover,
@@ -64,4 +64,8 @@ p:first-of-type {
 
   p:last-of-type {
     margin-bottom: 50px;
+  }
+
+  #button-2 {
+    background-color: #D55C5F;  
   }

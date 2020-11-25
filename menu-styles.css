@@ -43,7 +43,7 @@
     margin-right: 0;
   }
 
-  .features-menu {
+ .dropdown:hover .features-menu{
     display: flex;
     flex-direction: column;
     background: #B2D6FF;
@@ -52,6 +52,7 @@
     position: absolute;      
     top: -25px;
     left: -30px;
+    z-index: 1;
   }
   
   .features-menu li {
@@ -64,4 +65,14 @@
   
   .features-menu li:last-of-type {
     border-bottom: none;
+  }
+
+  .dropdown {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .features-menu {                    
+    display: none;
   }

@@ -25,18 +25,19 @@
 }
 
 body {
-  font-family: 'roboto';
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
   font-size: 18px;
   line-height: 1.8em;
   color: #5D6063;
 }
 
 em {
-  font-family: 'Roboto Light Italic', serif;
+  font-style: italic;
 }
 
 strong {
-  font-family: 'Roboto Bold', serif;
+  font-weight: bold;
 }
 
 
